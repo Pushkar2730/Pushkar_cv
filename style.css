@@ -1,0 +1,31 @@
+:root{
+    --primaryColor:#6EE7B7;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+font-family: 'Open Sans', sans-serif;
+}
+h1{
+    text-align: center;
+    
+}
+
+.inline-list{
+    list-style: none;
+    display: inline;
+    padding: 0rem .6rem;
+   /* background-color: var(--primaryColor);  */
+    float: right;
+}
+.non-bullet{
+    background-color:var(--primaryColor);
+   
+}
+nav{
+    text-align: left;
+    padding: 0.2rem 2rem 2rem .2rem;
+    border-bottom-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    margin: 10px;
+    background-color: var(--primaryColor);
+}

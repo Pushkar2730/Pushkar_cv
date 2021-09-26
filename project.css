@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{
+    --gray:#D1D5DB;
+
+    --primaryColor:#6EE7B7;
+}
+ 
+body{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.inline-list{
+    list-style: none;
+    display: inline;
+    padding: 0rem .6rem;
+    float: right;
+}
+#nav-header{
+    
+    margin: 0rem;
+    padding: 0%;
+}
+.live-project{
+    padding: .5rem;
+    margin-right: 20px; 
+    border-radius: .5rem;
+    text-decoration: none;
+    background-color: var(--primaryColor);
+}
+.source-code{
+    padding: .5rem;
+    margin-left: 20px;
+    border-radius: .5rem;
+    text-decoration: none;
+    background-color: var(--gray);
+
+}
+nav{
+    text-align: left;
+    padding: 0.2rem 2rem 2rem .2rem;
+    border-bottom-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    margin: 10px;
+    background-color: var(--primaryColor);
+}
+#Heading{
+    padding: .5rem;
+    margin: 60px;
+background-color: var(--gray);
+}
+.Project-Heading{
+    padding: 1rem;
+
+}
+.inline-bottom-nav-list{
+    list-style: none;
+    
+    display: inline;
+    padding: .2rem ;
+    text-align: center;
+}
+#bottom-nav{
+    text-align: center;
+    margin-left: 10px;
+    padding-left: 32px;
+    padding-top: 10px;
+}
+#bottom-list{
+    padding-inline-start: 0px;
+}
