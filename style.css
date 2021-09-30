@@ -26,10 +26,10 @@ margin-right: 30px;
 
 }
 #img-holder{
-width: 700px;
-height: 500px;
-margin: 20px auto;
-    background-image: url(https://cdn.imgbin.com/23/4/25/imgbin-green-green-wings-88R0shhXpx9izNfnH6ttxf9ag.jpg);
+width: 720px;
+height: 600px;
+margin: 50px auto;
+    background-image: url(https://w7.pngwing.com/pngs/309/724/png-transparent-logo-song-sensasi-theme-music-pamflet-leaf-grass-tree.png);
 }
 #btn-container{
     text-align: center;
@@ -56,3 +56,21 @@ nav{
     margin: 10px;
     background-color: var(--primaryColor);
 }
+.inline-bottom-nav-list{
+    list-style: none;
+    
+    display: inline;
+    padding: .2rem ;
+    text-align: center;
+}
+#bottom-nav{
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 10px;
+    padding-left: 32px;
+    padding-top: 10px;
+}
+#bottom-list{
+    padding-inline-start: 0px;
+}
+
