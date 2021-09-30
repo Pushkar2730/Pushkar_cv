@@ -20,6 +20,11 @@ body{
     padding: 0rem .6rem;
     float: right;
 }
+#capital, #Esports{
+    background-color: var(--gray);
+    padding: .5rem;
+border-radius: .3rem;
+}
 nav{
     text-align: left;
     padding: 0.2rem 2rem 2rem .2rem;
@@ -40,4 +45,23 @@ p{
     font-weight:550;
     margin: 10px auto;
     max-width: 900px;
+}
+.inline-bottom-nav-list{
+    list-style: none;
+    
+    display: inline;
+    padding: .2rem ;
+    text-align: center;
+}
+#bottom-nav{
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 10px;
+    padding-left: 32px;
+
+    padding-top: 10px;
+}
+#bottom-list{
+    
+    padding-inline-start: 0px;
 }
