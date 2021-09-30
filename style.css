@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 body{
 font-family: 'Open Sans', sans-serif;
+text-align: center;
 }
 h1{
     text-align: center;
@@ -13,28 +14,33 @@ h1{
 #project-btn{
 
     padding: 1rem;
-margin-right: 30px; 
+ 
     border-radius: .5rem;
     text-decoration: none;
-    background-color: var(--primaryColor);
+    text-align: center;
+    background-color: var(--gray);
 }
 #blog-btn{
     border-radius: .5rem;
     padding: 1rem;
     text-decoration: none;
-    background-color: var(--gray);
-
+    background-color: var(--primaryColor);
+text-align: center;
 }
+
+
 #img-holder{
 width: 720px;
 height: 600px;
 margin: 50px auto;
-    background-image: url(https://w7.pngwing.com/pngs/309/724/png-transparent-logo-song-sensasi-theme-music-pamflet-leaf-grass-tree.png);
+
+background: transparent;
+    background-image: url(https://cdn.dribbble.com/users/4705093/screenshots/9705461/green_leaf_water_drop_4x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
 }
-#btn-container{
-    text-align: center;
-    margin-top: 100px;
-}
+
 
 
 .inline-list{
@@ -72,5 +78,14 @@ nav{
 }
 #bottom-list{
     padding-inline-start: 0px;
+}
+.description{
+    margin: 50px auto;
+    width: 600px;
+    background-color:var(--gray);
+    height: 60px;
+border-radius: 1rem;
+    text-align: center;
+    padding: 20px 10px;
 }
 
