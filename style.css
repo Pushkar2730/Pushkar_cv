@@ -1,5 +1,6 @@
 :root{
     --primaryColor:#6EE7B7;
+    --gray:#D1D5DB;
 }
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 body{
@@ -9,6 +10,32 @@ h1{
     text-align: center;
     
 }
+#project-btn{
+
+    padding: 1rem;
+margin-right: 30px; 
+    border-radius: .5rem;
+    text-decoration: none;
+    background-color: var(--primaryColor);
+}
+#blog-btn{
+    border-radius: .5rem;
+    padding: 1rem;
+    text-decoration: none;
+    background-color: var(--gray);
+
+}
+#img-holder{
+width: 700px;
+height: 500px;
+margin: 20px auto;
+    background-image: url(https://cdn.imgbin.com/23/4/25/imgbin-green-green-wings-88R0shhXpx9izNfnH6ttxf9ag.jpg);
+}
+#btn-container{
+    text-align: center;
+    margin-top: 100px;
+}
+
 
 .inline-list{
     list-style: none;
